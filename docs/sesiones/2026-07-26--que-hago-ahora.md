@@ -19,6 +19,10 @@ persistente y pruebas unitarias. `main` todavía no tenía un commit remoto.
 - Añadida recomendación por tiempo y prioridad.
 - Añadida persistencia web en `localStorage`.
 - Conservada y actualizada la interfaz de terminal.
+- Publicado el commit de implementación `96135c9` en
+  `feature/what-to-do-now`.
+- Abierta la pull request en borrador
+  `https://github.com/Oskrrr09/selector-de-tareas/pull/1`.
 
 ## Decisiones
 
@@ -45,5 +49,4 @@ persistente y pruebas unitarias. `main` todavía no tenía un commit remoto.
 
 ## Pendientes y siguiente paso
 
-Revisar el diff, crear el commit de la rama y abrir una pull request sin
-fusionarla.
+Revisar la pull request #1. No fusionarla hasta recibir una petición explícita.

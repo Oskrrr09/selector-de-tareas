@@ -45,5 +45,8 @@ No hay integración continua configurada.
 - GitHub: `https://github.com/Oskrrr09/selector-de-tareas`.
 - Visibilidad: privada.
 - Rama de trabajo: `feature/what-to-do-now`.
-- Base inicial publicada en `main`.
-- La pull request se abrirá sin fusión automática.
+- Base inicial publicada en `main`: `88710b0`.
+- Implementación publicada en la rama: `96135c9`.
+- Pull request en borrador:
+  `https://github.com/Oskrrr09/selector-de-tareas/pull/1`.
+- La pull request permanece abierta y no se ha fusionado.
