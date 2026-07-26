@@ -46,22 +46,25 @@ Resultados del 2026-07-26:
 - El workflow se ejecuta al hacer push a `main` o manualmente.
 - No se usa React Router; la aplicación tiene una única ruta y no necesita un
   fallback SPA para recargas.
-- URL prevista: `https://oskrrr09.github.io/selector-de-tareas/`.
-- Pendiente: fusionar la pull request de Pages y seleccionar **GitHub Actions**
-  como fuente en Settings → Pages.
+- GitHub Pages usa **GitHub Actions** como fuente de publicación.
+- URL pública verificada:
+  `https://oskrrr09.github.io/selector-de-tareas/`.
+- Despliegue verificado:
+  `https://github.com/Oskrrr09/selector-de-tareas/actions/runs/30203983384`.
 
 ## Repositorio
 
 - Ruta local: `/Users/oskrrr09/Proyectos/selector-de-tareas`.
 - GitHub: `https://github.com/Oskrrr09/selector-de-tareas`.
 - Visibilidad: pública, comprobada el 2026-07-26.
-- Rama de despliegue: `codex/github-pages`.
+- Rama principal publicada: `main`.
 - Commit de despliegue: `bc02210`.
+- Commit de fusión publicado: `5b7e34d`.
 - Base inicial publicada en `main`: `88710b0`.
 - Implementación publicada en la rama: `96135c9`.
 - Pull request en borrador:
   `https://github.com/Oskrrr09/selector-de-tareas/pull/1`.
-- Pull request autocontenida de Pages:
+- Pull request de Pages fusionada:
   `https://github.com/Oskrrr09/selector-de-tareas/pull/2`.
-- Ambas pull requests permanecen abiertas y no se han fusionado; la #2 incluye
-  la aplicación y deja redundante la #1.
+- La PR #1 permanece abierta y es redundante porque la PR #2 ya incluyó su
+  implementación.

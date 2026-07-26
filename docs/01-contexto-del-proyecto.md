@@ -23,7 +23,8 @@ externos. Los datos de la web viven en `localStorage`; los de terminal, en
 - Pruebas de terminal: `python3 -m unittest discover -s tests -v`.
 - Producción: `npm run build`.
 - Base pública: `/selector-de-tareas/`.
-- Despliegue previsto: GitHub Actions a GitHub Pages desde `main`.
+- Despliegue: GitHub Actions a GitHub Pages desde `main`.
+- URL pública: `https://oskrrr09.github.io/selector-de-tareas/`.
 - La aplicación no usa React Router ni rutas cliente adicionales.
 
 ## Fuentes de verdad

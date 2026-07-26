@@ -21,8 +21,13 @@ GitHub Pages, sin cambiar el comportamiento de la aplicación.
   desplegar `dist/`.
 - Documentada la fuente de Pages y la URL pública prevista.
 - Publicado el commit `bc02210` en `codex/github-pages`.
-- Abierta la pull request en borrador
+- Abierta la pull request
   `https://github.com/Oskrrr09/selector-de-tareas/pull/2`.
+- Cambiada la fuente de GitHub Pages de publicación heredada desde la raíz de
+  `main` a GitHub Actions.
+- Fusionada la PR #2 en `main` mediante el commit `5b7e34d`.
+- Publicada y verificada la aplicación en
+  `https://oskrrr09.github.io/selector-de-tareas/`.
 
 ## Decisiones
 
@@ -38,6 +43,11 @@ GitHub Pages, sin cambiar el comportamiento de la aplicación.
 - `npm run build`: compilación completada.
 - `dist/index.html`: JavaScript y CSS apuntan a
   `/selector-de-tareas/assets/`.
+- Workflow `30203983384`: compilación y despliegue superados.
+- Comprobación HTTP sin caché: el documento publicado carga los recursos bajo
+  `/selector-de-tareas/assets/`.
+- Comprobación visual: la URL muestra “Decide menos. Empieza antes.”, el
+  selector de tiempo y el botón “¿Qué hago ahora?”.
 
 ## Archivos y repositorios afectados
 
@@ -48,5 +58,5 @@ GitHub Pages, sin cambiar el comportamiento de la aplicación.
 
 ## Pendientes y siguiente paso
 
-Revisar y fusionar la PR #2. Después, seleccionar **GitHub Actions** en
-Settings → Pages y comprobar la URL pública. La PR #1 queda redundante.
+La publicación está operativa. La PR #1 queda redundante y sigue abierta; el
+siguiente paso de producto es recoger feedback sobre la experiencia.

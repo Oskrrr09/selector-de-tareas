@@ -2,6 +2,9 @@
 
 ## 2026-07-26
 
+- Fusionada la PR #2 y activada la publicación mediante GitHub Actions.
+- Verificada la aplicación en
+  `https://oskrrr09.github.io/selector-de-tareas/`.
 - Configurada la base Vite `/selector-de-tareas/` para GitHub Pages.
 - Añadido un workflow que instala dependencias, ejecuta las pruebas web y
   Python, compila y publica `dist/`.
@@ -14,4 +17,3 @@
 - Creación inicial del selector de tareas.
 - Añadidos comandos para crear, listar, elegir y completar tareas.
 - Añadidas pruebas unitarias y documentación persistente.
-
