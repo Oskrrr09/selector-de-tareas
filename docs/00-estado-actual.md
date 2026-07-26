@@ -56,8 +56,12 @@ Resultados del 2026-07-26:
 - GitHub: `https://github.com/Oskrrr09/selector-de-tareas`.
 - Visibilidad: pública, comprobada el 2026-07-26.
 - Rama de despliegue: `codex/github-pages`.
+- Commit de despliegue: `bc02210`.
 - Base inicial publicada en `main`: `88710b0`.
 - Implementación publicada en la rama: `96135c9`.
 - Pull request en borrador:
   `https://github.com/Oskrrr09/selector-de-tareas/pull/1`.
-- La pull request permanece abierta y no se ha fusionado.
+- Pull request autocontenida de Pages:
+  `https://github.com/Oskrrr09/selector-de-tareas/pull/2`.
+- Ambas pull requests permanecen abiertas y no se han fusionado; la #2 incluye
+  la aplicación y deja redundante la #1.

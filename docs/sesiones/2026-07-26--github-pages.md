@@ -20,6 +20,9 @@ GitHub Pages, sin cambiar el comportamiento de la aplicación.
 - Añadido un workflow de GitHub Actions para instalar, probar, compilar y
   desplegar `dist/`.
 - Documentada la fuente de Pages y la URL pública prevista.
+- Publicado el commit `bc02210` en `codex/github-pages`.
+- Abierta la pull request en borrador
+  `https://github.com/Oskrrr09/selector-de-tareas/pull/2`.
 
 ## Decisiones
 
@@ -45,5 +48,5 @@ GitHub Pages, sin cambiar el comportamiento de la aplicación.
 
 ## Pendientes y siguiente paso
 
-Abrir la pull request sin fusionarla. Tras su fusión, seleccionar
-**GitHub Actions** en Settings → Pages y comprobar la URL pública.
+Revisar y fusionar la PR #2. Después, seleccionar **GitHub Actions** en
+Settings → Pages y comprobar la URL pública. La PR #1 queda redundante.

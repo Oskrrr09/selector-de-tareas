@@ -1,7 +1,8 @@
 # Problemas pendientes
 
-- La pull request #1 está en borrador y pendiente de revisión.
-- GitHub Pages no publicará hasta fusionar la nueva PR en `main` y seleccionar
+- Las pull requests #1 y #2 están en borrador; la #2 es autocontenida y deja
+  redundante la #1.
+- GitHub Pages no publicará hasta fusionar la PR #2 en `main` y seleccionar
   **GitHub Actions** como fuente en Settings → Pages.
 - El formato de un `tareas.json` manipulado manualmente solo se valida de forma
   básica.
