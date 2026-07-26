@@ -2,8 +2,7 @@
 
 Las siguientes ideas no son compromisos:
 
-1. Validar el ciclo de creación, revisión, commit y push.
-2. Usar el proyecto en una sesión posterior para comprobar la recuperación de
-   contexto.
-3. Valorar eliminación y edición de tareas si la utilidad continúa.
-
+1. Recoger feedback de la pull request de “¿Qué hago ahora?”.
+2. Valorar edición y eliminación de tareas.
+3. Valorar una migración o importación entre `tareas.json` y `localStorage`.
+4. Añadir pruebas de navegador si la interfaz continúa creciendo.

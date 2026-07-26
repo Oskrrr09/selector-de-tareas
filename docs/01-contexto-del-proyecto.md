@@ -8,14 +8,18 @@ es ayudar a elegir por dónde empezar cuando existen varias tareas pendientes.
 
 ## Alcance actual
 
-Es una aplicación local de terminal, escrita únicamente con la biblioteca
-estándar de Python. No incluye interfaz web, cuentas, sincronización ni servicios
-externos.
+Incluye una aplicación web local de una página y conserva la interfaz de
+terminal. La web usa Vite, React, TypeScript y Tailwind CSS; la terminal usa
+únicamente la biblioteca estándar de Python.
+
+No incluye cuentas, backend, sincronización entre dispositivos ni servicios
+externos. Los datos de la web viven en `localStorage`; los de terminal, en
+`tareas.json`. Ambos almacenamientos son deliberadamente independientes.
 
 ## Fuentes de verdad
 
-- El comportamiento ejecutable está en `selector.py`.
+- El comportamiento web está en `src/`.
+- El comportamiento de terminal está en `selector.py`.
 - El uso público está descrito en `README.md`.
 - El estado y las decisiones están en `docs/`.
 - La ficha de recuperación central vive en el vault de Obsidian.
-

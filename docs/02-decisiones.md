@@ -10,7 +10,7 @@
 ## SEL-002 — Solo biblioteca estándar
 
 - Fecha: 2026-07-26.
-- Estado: aceptada.
+- Estado: reemplazada por SEL-004 para la interfaz web; vigente para terminal.
 - Decisión: no añadir dependencias externas.
 - Motivo: simplifica la ejecución y concentra la prueba en el flujo documental.
 
@@ -21,3 +21,27 @@
 - Decisión: guardar las tareas en `tareas.json` e ignorar ese archivo en Git.
 - Motivo: una lista personal no debe publicarse accidentalmente.
 
+## SEL-004 — Interfaz web local
+
+- Fecha: 2026-07-26.
+- Estado: aceptada.
+- Decisión: añadir Vite, React, TypeScript y Tailwind CSS para ofrecer una
+  pantalla principal responsive.
+- Motivo: la función solicitada necesita interacción visual y persistencia en
+  navegador; no se añaden Motion, GSAP ni Lenis porque no aportan al alcance.
+
+## SEL-005 — Orden de recomendación
+
+- Fecha: 2026-07-26.
+- Estado: aceptada.
+- Decisión: filtrar primero por estado pendiente y tiempo disponible, conservar
+  después la prioridad máxima y elegir al azar entre los empates.
+- Evidencia: `src/recommend.ts` y `selector.py`.
+
+## SEL-006 — Persistencia web versionada
+
+- Fecha: 2026-07-26.
+- Estado: aceptada.
+- Decisión: guardar las tareas web en la clave
+  `selector-de-tareas:v1` de `localStorage`.
+- Motivo: preservar los datos al recargar sin introducir un backend.
