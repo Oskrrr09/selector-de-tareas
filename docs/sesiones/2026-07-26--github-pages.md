@@ -26,6 +26,8 @@ GitHub Pages, sin cambiar el comportamiento de la aplicación.
 - Cambiada la fuente de GitHub Pages de publicación heredada desde la raíz de
   `main` a GitHub Actions.
 - Fusionada la PR #2 en `main` mediante el commit `5b7e34d`.
+- GitHub marcó también la PR #1 como fusionada al quedar sus commits incluidos
+  en `main`.
 - Publicada y verificada la aplicación en
   `https://oskrrr09.github.io/selector-de-tareas/`.
 
@@ -58,5 +60,5 @@ GitHub Pages, sin cambiar el comportamiento de la aplicación.
 
 ## Pendientes y siguiente paso
 
-La publicación está operativa. La PR #1 queda redundante y sigue abierta; el
-siguiente paso de producto es recoger feedback sobre la experiencia.
+La publicación está operativa y no quedan pull requests abiertas. El siguiente
+paso de producto es recoger feedback sobre la experiencia.

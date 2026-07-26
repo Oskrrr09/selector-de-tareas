@@ -62,9 +62,9 @@ Resultados del 2026-07-26:
 - Commit de fusión publicado: `5b7e34d`.
 - Base inicial publicada en `main`: `88710b0`.
 - Implementación publicada en la rama: `96135c9`.
-- Pull request en borrador:
+- Pull request funcional fusionada:
   `https://github.com/Oskrrr09/selector-de-tareas/pull/1`.
 - Pull request de Pages fusionada:
   `https://github.com/Oskrrr09/selector-de-tareas/pull/2`.
-- La PR #1 permanece abierta y es redundante porque la PR #2 ya incluyó su
-  implementación.
+- GitHub marcó ambas pull requests como fusionadas al incorporar en `main` la
+  PR #2 autocontenida.
