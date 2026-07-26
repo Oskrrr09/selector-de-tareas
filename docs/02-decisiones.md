@@ -45,3 +45,15 @@
 - Decisión: guardar las tareas web en la clave
   `selector-de-tareas:v1` de `localStorage`.
 - Motivo: preservar los datos al recargar sin introducir un backend.
+
+## SEL-007 — Publicación bajo la subruta del repositorio
+
+- Fecha: 2026-07-26.
+- Estado: aceptada.
+- Decisión: publicar con GitHub Pages bajo `/selector-de-tareas/` y ejecutar el
+  despliegue con GitHub Actions desde `main`.
+- Evidencia: `vite.config.ts` y
+  `.github/workflows/deploy-pages.yml`.
+- Consecuencia: los recursos generados usan la misma base y el despliegue solo
+  ocurre después de superar pruebas y compilación.
+- React Router: no aplica; la aplicación actual no tiene rutas cliente.

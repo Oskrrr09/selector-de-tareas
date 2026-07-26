@@ -2,6 +2,10 @@
 
 ## 2026-07-26
 
+- Configurada la base Vite `/selector-de-tareas/` para GitHub Pages.
+- Añadido un workflow que instala dependencias, ejecuta las pruebas web y
+  Python, compila y publica `dist/`.
+- Documentada la activación manual de Pages y la URL pública prevista.
 - Añadida la pantalla web responsive “¿Qué hago ahora?”.
 - Las tareas incorporan prioridad, duración estimada y estado.
 - Añadido el algoritmo que prioriza tareas pendientes compatibles con el tiempo.

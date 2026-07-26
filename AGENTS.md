@@ -19,6 +19,10 @@ Este archivo se aplica a todo el repositorio.
 - Respeta los valores admitidos de prioridad, duración y estado definidos en
   `src/types.ts`.
 - Mantén controles táctiles, foco visible y funcionamiento responsive.
+- Conserva `base: '/selector-de-tareas/'` en Vite mientras GitHub Pages publique
+  el proyecto bajo esa subruta.
+- Mantén el despliegue en `.github/workflows/deploy-pages.yml`; debe probar y
+  compilar antes de publicar `dist/`.
 - No guardes secretos, credenciales ni datos personales en el repositorio.
 - Actualiza la documentación cuando cambie el comportamiento o el alcance.
 - No hagas commit ni push salvo petición explícita del usuario.

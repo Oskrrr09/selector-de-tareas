@@ -43,4 +43,18 @@ npm run build
 python3 -m unittest discover -s tests -v
 ```
 
+## Publicación en GitHub Pages
+
+Vite usa la base `/selector-de-tareas/` para que JavaScript y CSS se carguen
+correctamente desde la subruta del repositorio.
+
+El workflow `.github/workflows/deploy-pages.yml` ejecuta las pruebas web y de
+terminal, compila la aplicación y publica `dist/` cuando hay un push a `main`.
+También admite ejecución manual desde la pestaña Actions.
+
+Antes del primer despliegue, en **Settings → Pages → Build and deployment** hay
+que elegir **GitHub Actions** como fuente. La URL prevista es:
+
+`https://oskrrr09.github.io/selector-de-tareas/`
+
 El contexto persistente del proyecto está en [`docs/`](docs/00-estado-actual.md).

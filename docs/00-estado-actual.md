@@ -36,15 +36,26 @@ Resultados del 2026-07-26:
 - Vitest: 7 pruebas superadas.
 - `unittest`: 8 pruebas superadas.
 - Vite: compilación de producción completada.
+- Los recursos compilados usan `/selector-de-tareas/assets/`.
 
-No hay integración continua configurada.
+## Publicación
+
+- Vite usa `base: '/selector-de-tareas/'`.
+- `.github/workflows/deploy-pages.yml` instala dependencias, ejecuta las pruebas,
+  compila y publica `dist/` mediante GitHub Actions.
+- El workflow se ejecuta al hacer push a `main` o manualmente.
+- No se usa React Router; la aplicación tiene una única ruta y no necesita un
+  fallback SPA para recargas.
+- URL prevista: `https://oskrrr09.github.io/selector-de-tareas/`.
+- Pendiente: fusionar la pull request de Pages y seleccionar **GitHub Actions**
+  como fuente en Settings → Pages.
 
 ## Repositorio
 
 - Ruta local: `/Users/oskrrr09/Proyectos/selector-de-tareas`.
 - GitHub: `https://github.com/Oskrrr09/selector-de-tareas`.
-- Visibilidad: privada.
-- Rama de trabajo: `feature/what-to-do-now`.
+- Visibilidad: pública, comprobada el 2026-07-26.
+- Rama de despliegue: `codex/github-pages`.
 - Base inicial publicada en `main`: `88710b0`.
 - Implementación publicada en la rama: `96135c9`.
 - Pull request en borrador:
