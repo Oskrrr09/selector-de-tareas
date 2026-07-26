@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Avenir Next", Avenir, "Segoe UI", sans-serif;
+  --color-ink: #1b211c;
+  --color-paper: #f5f2e9;
+  --color-moss: #315c43;
+  --color-moss-dark: #214231;
+  --color-lime-soft: #d9edc7;
+  --color-line: #d8d5c9;
+}
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    background: var(--color-paper);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+  }
+
+  body {
+    min-width: 320px;
+    min-height: 100vh;
+    margin: 0;
+  }
+
+  button,
+  input,
+  select {
+    font: inherit;
+  }
+
+  button,
+  select,
+  input[type="checkbox"] {
+    cursor: pointer;
+  }
+
+  :focus-visible {
+    outline: 3px solid #8aba69;
+    outline-offset: 3px;
+  }
+}
